@@ -1,0 +1,325 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font: 16px/1.5 "Microsoft YaHei UI";
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/*默认样式*/
+.nav {
+    width: 100%;
+    height: 79px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+
+/* a标签为行内元素，没有宽高属性 */
+.logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+
+.navList li {
+    width: 86px;
+    height: 100%;
+    float: left;
+}
+
+.navList li a {
+    line-height: 79px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    transition: color linear .5s;
+}
+
+.navList li a:hover {
+    color: #16b0dc;
+}
+
+.title {
+    width: 100%;
+    height: 120px;
+    background: #f1f1f1;
+}
+
+.title h1 {
+    font-size: 35px;
+    color: #F67A82;
+    font-weight: 400;
+    text-align: center;
+    line-height: 120px;
+}
+
+.itemAll {
+    padding: 30px 0;
+    background: #f2f2f2;
+    border-top: 1px solid #f0f2f5;
+    width: 100%;
+    height:2021px;
+    margin: 0 auto;
+    border-top: 1px solid #f0f2f5;
+}
+
+.itemContent {
+    width: 1170px;
+    /*background: #16b0dc;*/
+    margin: 0 auto;
+}
+
+.itemContent .leftItem {
+    background: #ffffff;
+    width: 817px;
+    height: 1961px;
+    float: left;
+    padding: 30px;
+}
+
+.itemContent .rightItem {
+    background: #ffffff;
+    width: 222px;
+    height: 315px;
+    margin-left: 30px;
+    padding: 20px;
+    float: right;
+}
+
+.contentAll {
+    width: 817px;
+    height: 1910px;
+    margin-bottom: 11px;
+    background: #ffffff;
+}
+
+.contentAll .one {
+    width: 817px;
+    height: 160px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #f0f2f5;
+    /*background: #ff8271;*/
+}
+
+.one img {
+    width: 160px;
+    height: 160px;
+    /*background: #4cae4c;*/
+    padding-right: 20px
+}
+
+.one .right {
+    width: 636px;
+    height: 160px;
+    /*background: #dcc138;*/
+    float: right;
+}
+
+.right h4 {
+    color: #2a333c;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+h4 a:hover {
+    color: #16b0dc;
+    text-decoration: underline;
+}
+
+.right .font {
+    color: #76838f;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.right .info {
+    color: #a3afb7;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.leftItem .page {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.page a:hover {
+    background: #f5f5f5;
+    text-decoration: none;
+}
+
+.page .before {
+    border: 1px solid #e4eaec;
+    padding: 9px 15px;
+    background: #fff;
+    color: #ccd5db;
+    font-size: 14px;
+    /*cursor: default;*/
+}
+
+.page a {
+    border: 1px solid #e4eaec;
+    /*border-right: none;*/
+    background: #fff;
+    padding: 9px 15px;
+    text-align: center;
+    color: #76838f;
+    font-size: 14px;
+}
+
+.page a.Ahover {
+    background: #f86867;
+    border-color: #f86867;
+    color: #fff;
+}
+
+.rightItem .sousuo{
+    position: relative;
+}
+.rightItem input{
+    width: 192px;
+    height: 22px;
+    border-radius: 200px;
+    border: 1px solid #e4eaec;
+    padding: 6px 15px;
+}
+
+input:focus{
+    border-color: #16b0dc;
+    outline: none;
+}
+
+.rightItem a i{
+    color: #333333;
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+
+.rightItem .tuijian {
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid #f0f2f5;
+    border-bottom: 1px solid #f0f2f5;
+}
+
+.tuijian h3 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.tuijian .list {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.list .listItem a {
+    /*position: relative;*/
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #f0f2f5;
+    font-size: 15px;
+    color: #2a333c;
+}
+
+.listItem a:hover, .column a:hover {
+    color: #16b0dc;
+    text-decoration: underline;
+}
+
+.column {
+    padding: 0;
+    font-size: 16px;
+}
+
+
+.publish {
+    width: 100%;
+    height: 150px;
+    background: #f5f5f5;
+    border-top: 1px solid #f0f2f5;
+    padding-bottom: 20px;
+    color: #aaaaaa;
+    /*height: auto;*/
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+.publish .picture {
+    width: 140px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.publish .picture a img {
+    width: 30px;
+    height: 30px;
+}
+
+.picture a:hover {
+    color: rgba(22, 176, 220, 0.6);
+}
+
+.publish p {
+    font-size: 14px;
+    text-align: center;
+    color: #dfdfdf;
+    transition: all ease .5s;
+}
+
+.publish p a {
+    font-weight: 400;
+    transition: all ease .5s;
+    color: #16b0dc;
+}
+
+.publish p a:hover {
+    color: rgba(22, 176, 220, 0.6);
+    text-decoration: underline;
+}
+
+
+
+

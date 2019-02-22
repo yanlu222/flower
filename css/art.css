@@ -1,0 +1,229 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font: 16px/1.5 "Microsoft YaHei UI";
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/*默认样式*/
+.nav {
+    width: 100%;
+    height: 79px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+
+/* a标签为行内元素，没有宽高属性 */
+.logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.logo a img {
+    width: 100%;
+    height: 100%;
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+
+.navList li {
+    width: 86px;
+    height: 100%;
+    float: left;
+}
+
+.navList li a {
+    line-height: 79px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    transition: color linear .5s;
+}
+
+.navList li a:hover {
+    color: #16b0dc;
+}
+
+/*nav*/
+
+.banner {
+    width: 100%;
+    height: 1198px;
+    background: #cccccc;
+    margin-top: 79px;
+}
+
+.banner .box {
+    width: 759px;
+    height: 599px;
+    background: palevioletred;
+    float: left;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: 0.3s;
+}
+
+.middle {
+    /*display: inline-block;*/
+    font-size: 14px;
+    width: 120px;
+    height: 148px;
+    /*margin: 0 auto;*/
+    /*background: #16b0dc;*/
+    text-align: center;
+    position: absolute;
+    top: 304px;
+    left: 319px;
+
+}
+
+.middle .time {
+    /*color: #fff;*/
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.middle .time:after {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 15px auto;
+    content: "";
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.middle h3 {
+    margin: 20px auto;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.middle .btn {
+    padding: 6px 15px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #e4eaec;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #ccc;
+}
+
+
+/*效果开始*/
+.box img:hover {
+    transform: scale(1.1);
+}
+
+.box:hover .middle h3 {
+    color: white;
+}
+
+.box:hover .middle .btn {
+    color: white;
+    border: 1px solid white;
+}
+
+.box:hover .middle .time span {
+    color: white;
+}
+
+.box:hover .middle .time:after {
+    background: white;
+}
+
+/*banner*/
+
+.shang {
+    border-top: 1px solid #f5f5f5;
+    width: 100%;
+    height: 20px;
+    float: left;
+}
+
+.publish {
+    width: 100%;
+    height: 160px;
+    background: #f5f5f5;
+    float: left;
+}
+
+.publish .picture {
+    width: 140px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.publish .picture a img {
+    width: 30px;
+    height: 30px;
+}
+
+.picture a:hover {
+    color: rgba(22, 176, 220, 0.6);
+}
+
+.publish p {
+    font-size: 14px;
+    text-align: center;
+    color: #dfdfdf;
+    transition: all ease .5s;
+}
+
+.publish p a {
+    font-weight: 400;
+    transition: all ease .5s;
+    color: #16b0dc;
+}
+
+.publish p a:hover {
+    color: rgba(22, 176, 220, 0.6);
+    text-decoration: underline;
+}
+
+/*publish*/
+
+
+
+
+
